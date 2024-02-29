@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borders</title>
+
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: whitesmoke;
+        }
+        .border1{  
+            margin: 100px;
+            padding: 100px;
+            width: 100px;
+            border-top: solid red;
+            border-bottom: solid blue;
+            border-left-style: dotted;
+            border-right-style: dashed;
+        }
+        .border2{
+            margin: 100px;
+            padding: 100px;
+            width: 100px;
+            border-top: solid yellow;
+            border-bottom: solid violet;
+            border-left-style: dashed;
+            border-right-style: outset;
+        }
+        .border3{
+            margin: 100px;
+            padding: 100px;
+            width: 100px;
+            border-top: solid rebeccapurple;
+            border-bottom: solid darkolivegreen; 
+            border-left-style: solid;
+            border-right-style: double;
+        }
+        .border4{
+            margin: 100px;
+            padding: 100px;
+            width: 100px;
+            border-top: solid magenta;
+            border-bottom: solid brown; 
+            border-left-style: groove;
+            border-right-style:ridge ;
+        }
+        p{
+            font-size: larger;
+            text-align: center;
+            margin: 0px;
+        }
+        .flex{
+            display: flex; 
+        }
+    </style>
+</head>
+<body>
+    <div class="flex">
+        <div class="border1" >
+            <p>
+                March<br>
+                January<br>
+                December<br>
+                August
+            </p>
+        </div>
+        <div class="border2">
+            <p>
+                Mouse<br>
+                Jaguar<br>
+                Dog<br>
+                Ape
+            </p>
+        </div>
+        <div class="border3">
+            <p>
+                Myanmar<br>
+                Japan<br>
+                Denmark<br>
+                Australia
+            </p>
+        </div>
+        <div class="border4">
+            <p>
+                Marshmallow<br>
+                Jelly<br>
+                Dragon Fruit<br>
+                Almond
+            </p>
+        </div>
+    </div>   
+</body>
+</html>
